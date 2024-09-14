@@ -2,16 +2,15 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-# Load datasets
 world_cups = pd.read_csv(r"C:\Users\Nitesh Tiwari\Downloads\WorldCups.csv")
 matches = pd.read_csv(r"C:\Users\Nitesh Tiwari\Downloads\WorldCupMatches.csv")
 players = pd.read_csv(r"C:\Users\Nitesh Tiwari\Downloads\WorldCupPlayers.csv")
-#print(world_cups.isnull().sum())
-#print(players.isnull().sum())
-#print(matches.isnull().sum())
-#print(world_cups.describe())
-#print(players.describe())
-#print(matches.describe())
+print(world_cups.isnull().sum())
+print(players.isnull().sum())
+print(matches.isnull().sum())
+print(world_cups.describe())
+print(players.describe())
+print(matches.describe())
 print(world_cups.columns)
 print(players.columns)
 print(matches.columns)
